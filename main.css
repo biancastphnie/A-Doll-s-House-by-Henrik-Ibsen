@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora');
+
+/*color palette https://imagecolorpicker.com/color-code/b8bc9c*/
+
+html {
+    font-family: 'Lora';
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/*landing page*/
+
+.landing_text {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.landing_desc {
+    padding: 1rem 1rem
+}
+
+/*nav bar*/
+
+header {
+    width: 100%;
+    background-color: #37382f; /*70% shade*/
+    padding: 0rem 3rem;
+}
+
+header h1 {
+    float: left;
+    padding-top: 0.5rem;
+    color: #d4d7c4; /*40% tint*/
+    font-size: 30px;
+    font-weight: 200;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0rem;
+    overflow: hidden;
+    float: right;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: #d4d7c4; /*40% tint*/
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #25261f; /*80% shade*/
+}
+
+.active {
+    background-color: #4a4b3e; /*60% shade*/
+}
+
+
+/*page*/
+
+body {
+    background-color: #5c5e4e; /*50% shade*/
+}
+
+.card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #d4d7c4; /*40% tint*/
+    width: 95%;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.card .title,
+.subtitle {
+    margin-top: 1rem;
+}
+
+.card .text {
+    margin-bottom: 1rem;
+}
